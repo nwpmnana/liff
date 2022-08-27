@@ -75,7 +75,9 @@
     }
 
     function getEnvironment() {
-		document.getElementById("userId").append(liff.getOS())
+		document.getElementById("os").append(liff.getOS())
+		document.getElementById("language").append(liff.getLanguage())
+		document.getElementById("version").append(liff.getVersion())
     }
 
     async function main() {
