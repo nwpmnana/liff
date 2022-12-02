@@ -1,3 +1,3 @@
 <?php
-echo "Hi 1234 : ";
+echo "Hi : ".$_GET['id'];
 ?>
